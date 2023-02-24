@@ -33,14 +33,14 @@ public class CrystalVase extends Thread {
         t.start();
 
         Random randI = new Random();
-        int myRandInt = randI.nextInt(9);
+        int myRandInt = randI.nextInt(1);
         
         try
         {
             for(int i = 0; i < n; i++)
             {
-                myRandInt = randI.nextInt(9);
-                if(myRandInt == 3)
+                myRandInt = randI.nextInt(1);
+                if(myRandInt == 1)
                 {
                     q.add(arr[i]);
                 }
